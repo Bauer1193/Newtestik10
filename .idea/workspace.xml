@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f01bd3-a840-43ae-9e7d-79c71ad4fe3c" name="Changes" comment="">
+    <list default="true" id="15f01bd3-a840-43ae-9e7d-79c71ad4fe3c" name="Changes" comment="Почистил master от лишнего">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/NextPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW3/HW3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW3/WebHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,10 +43,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.EdujiraIfwllowTest.executor": "Run",
+    "JUnit.HW3Test.Autorisations.executor": "Run",
+    "JUnit.Test.Autorisations.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Aleksandr-Konovalov__HW3",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Konovalov Aleksandr/IdeaProjects/Newtestik/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
@@ -49,7 +58,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HW3Test.Autorisations">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Newtestik10" />
@@ -57,8 +66,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HW3Test.Autorisations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Newtestik10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW3" />
+      <option name="MAIN_CLASS_NAME" value="HW3.HW3Test" />
+      <option name="METHOD_NAME" value="Autorisations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Newtestik10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW3" />
+      <option name="MAIN_CLASS_NAME" value="HW3.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.Autorisations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Newtestik10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW3" />
+      <option name="MAIN_CLASS_NAME" value="HW3.Test" />
+      <option name="METHOD_NAME" value="Autorisations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HW3Test.Autorisations" />
+        <item itemvalue="JUnit.Test.Autorisations" />
+        <item itemvalue="JUnit.EdujiraIfwllowTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,6 +131,15 @@
       <option name="presentableId" value="Default" />
       <updated>1757686900797</updated>
     </task>
+    <task id="LOCAL-00001" summary="Почистил master от лишнего">
+      <option name="closed" value="true" />
+      <created>1758277670539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758277670539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,11 +147,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Aleksandr-Konovalov_HW3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Почистил master от лишнего" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почистил master от лишнего" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
