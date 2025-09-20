@@ -4,6 +4,8 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
+import java.time.Duration;
+
 import static com.codeborne.selenide.Selenide.$x;
 
 public class HomePage {
@@ -13,8 +15,8 @@ public class HomePage {
     private final SelenideElement button = $x("//input[contains(@value, 'Войти')]");
 
     public NextPage goToNextPage() {
-        login.shouldBe(Condition.visible).append("AT14");
-        password.shouldBe(Condition.visible).append("Qwerty123");
+        login.append("AT14");
+        password.append("Qwerty123");
         button.click();
         return Selenide.page(NextPage.class);
     }
