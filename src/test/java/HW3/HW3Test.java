@@ -9,9 +9,9 @@ import org.junit.jupiter.api.Test;
 
         @Test
         @DisplayName("Авторизация на сайте")
-        public void Autorisations() {
+        public void Autorisation() {
             HomePage
                     .goToNextPage()
-                    .CheckNextPage();
+                    .CheckThisPage();
         }
     }

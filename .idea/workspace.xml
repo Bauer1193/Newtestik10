@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f01bd3-a840-43ae-9e7d-79c71ad4fe3c" name="Changes" comment="Накидал немного для тестика">
+    <list default="true" id="15f01bd3-a840-43ae-9e7d-79c71ad4fe3c" name="Changes" comment="Авторизация">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ProjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HW3/NextPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/NextPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW3/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW3/WebHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW3/HW3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW3/HW3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,33 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EdujiraIfwllowTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HW3Test.Autorisations.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HW3Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test.Autorisations.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Aleksandr-Konovalov__HW3&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Konovalov Aleksandr/IdeaProjects/Newtestik/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.EdujiraIfwllowTest.executor": "Run",
+    "JUnit.HW3Test.Autorisation.executor": "Run",
+    "JUnit.HW3Test.Autorisations.executor": "Run",
+    "JUnit.HW3Test.Open.executor": "Run",
+    "JUnit.HW3Test.executor": "Run",
+    "JUnit.Test.Autorisations.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Aleksandr-Konovalov__HW3",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Konovalov Aleksandr/IdeaProjects/Newtestik/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.HW3Test.Autorisations">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Newtestik10" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.HW3Test">
     <configuration name="HW3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Newtestik10" />
       <extension name="coverage">
@@ -77,6 +71,22 @@
       <option name="PACKAGE_NAME" value="HW3" />
       <option name="MAIN_CLASS_NAME" value="HW3.HW3Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW3Test.Autorisation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Newtestik10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW3" />
+      <option name="MAIN_CLASS_NAME" value="HW3.HW3Test" />
+      <option name="METHOD_NAME" value="Autorisation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HW3Test.Open" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Newtestik10" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +116,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HW3" />
-      <option name="MAIN_CLASS_NAME" value="HW3.Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="HW3.HW3Test" />
+      <option name="METHOD_NAME" value="Open" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HW3Test.Autorisations" />
         <item itemvalue="JUnit.HW3Test" />
+        <item itemvalue="JUnit.HW3Test.Autorisation" />
+        <item itemvalue="JUnit.HW3Test.Open" />
+        <item itemvalue="JUnit.HW3Test.Autorisations" />
         <item itemvalue="JUnit.Test.Autorisations" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758289768805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Авторизация">
+      <option name="closed" value="true" />
+      <created>1758353317787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758353317787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Почистил master от лишнего" />
     <MESSAGE value="Накидал немного для тестика" />
-    <option name="LAST_COMMIT_MESSAGE" value="Накидал немного для тестика" />
+    <MESSAGE value="Авторизация" />
+    <option name="LAST_COMMIT_MESSAGE" value="Авторизация" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,18 +222,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HW3/HW3Test.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/HW3/HW3Test.java</url>
-          <line>11</line>
-          <properties class="HW3.HW3Test" method="Autorisations">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/HW3/ProjectTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
