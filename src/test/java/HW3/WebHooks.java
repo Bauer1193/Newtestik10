@@ -12,7 +12,7 @@ public class WebHooks {
     @BeforeEach
     public void initBrowser() {
 
-        Selenide.open("edujira.ifellow.ru");
+        Selenide.open("https://edujira.ifellow.ru/secure/Dashboard.jspa");
     }
 
     @AfterEach

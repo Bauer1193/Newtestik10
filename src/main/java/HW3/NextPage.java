@@ -7,10 +7,10 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class NextPage {
 
-    private final SelenideElement password = $x("//input[contains(@id, 'password')]");
+    private final SelenideElement lenta = $x("//h3[contains(@id,'10003')]");
 
     public NextPage CheckNextPage () {
-        password.shouldBe(Condition.visible);
+        lenta.shouldBe(Condition.visible);
         return this;
     }
 }
